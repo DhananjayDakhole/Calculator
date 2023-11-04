@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+body {
+    background: -o-linear-gradient(left, #782cc4, #40e459);
+    background: -webkit-gradient(linear, left top, right top, from(#782cc4), to(#40e459));
+    background: linear-gradient(90deg, #782cc4, #40e459);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #ffffff40;
+    -webkit-box-shadow: 0 8px 32px 0 #1f26875e;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 10vh;
+}
+
+input {
+    background: #ffffff1a;
+    -webkit-box-shadow: 0 8px 32px 0 #1f26875e;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    width: 18rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background: transparent;
+    padding: 1rem;
+    color: #ffffff;
+    text-align: right;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input::-moz-placeholder {
+    color: #ffffff;
+}
+
+input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+input::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    -webkit-box-shadow: 3px -1px 15px #777171;
+    box-shadow: 3px -1px 15px #777171;
+}
+
+.operators {
+    background: #e4eabe;
+    color: #330d59;
+}
+
+.operators:hover {
+    background: #d3cdcdc6;
+}
+
+.pill{
+    width: 6.9rem;
+    border-radius: 30%;
+}
